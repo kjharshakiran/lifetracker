@@ -1,0 +1,20 @@
+{
+  "name": "lifetracker",
+  "version": "0.1.0",
+  "description": "Personal commitment journal — hierarchy of goals, six pillars, Gita.",
+  "private": true,
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "passcode": "node scripts/passcode.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}

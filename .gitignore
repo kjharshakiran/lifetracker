@@ -1,0 +1,13 @@
+node_modules/
+data/
+.env
+.env.local
+.DS_Store
+.claude/
+
+# Secrets & local files (never commit)
+.env.*
+!.env.example
+*.pem
+*.p8
+*.key
